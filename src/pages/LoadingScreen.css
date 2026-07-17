@@ -1,0 +1,32 @@
+ .loading-screen {
+  height: 100vh;
+  width: 100%;
+  background-color: #0a1a3c;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+
+.loading-icon-placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logoimage {
+  width: 350px;
+  height: auto;
+}
+
+.loading-title {
+  font-size: 3rem;
+  font-weight: 700;
+  color: white;
+  text-align: center;
+}
+
+.loading-title-accent {
+  color: #3b82f6;
+}

@@ -1,10 +1,18 @@
 import './App.css';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import LoadingScreen from './pages/LoadingScreen';
+import OnboardingA from './pages/OnboardingA';
 
 function App() {
   return (
-    <div className="app">
-      <h1>FloodAlert</h1>
-    </div>
+    <BrowserRouter>
+      <div className="app">
+        <Routes>
+          <Route path="/" element={<LoadingScreen />} />
+          <Route path="/onboardingA" element={<OnboardingA />} />
+        </Routes>
+      </div>
+    </BrowserRouter>
   );
 }
 
