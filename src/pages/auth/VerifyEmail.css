@@ -1,0 +1,201 @@
+.auth-screen {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+
+.auth-form-side {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  padding: 16px 24px;
+}
+
+.auth-logo-box {
+  width: 100%;
+  max-width: 420px;
+  margin-bottom: 24px;
+}
+
+.auth-logo {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-weight: 800;
+  font-size: 1.05rem;
+  color: #0a1a3c;
+}
+
+.logo-droplet-icon {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+}
+
+.auth-logo-accent {
+  color: #2563eb;
+}
+
+.auth-form-box {
+  width: 100%;
+  max-width: 420px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.verify-icon-circle {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background-color: #eff6ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 16px;
+}
+
+.verify-mail-icon {
+  width: 28px;
+  height: 28px;
+  object-fit: contain;
+}
+
+.verify-title {
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: #111827;
+  margin: 0 0 8px;
+}
+
+.verify-subtitle {
+  color: #6b7280;
+  font-size: 0.85rem;
+  line-height: 1.5;
+  margin: 0 0 20px;
+}
+
+.verify-info-box {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  background-color: #eff6ff;
+  border-radius: 12px;
+  padding: 14px;
+  width: 100%;
+  text-align: left;
+  margin-bottom: 12px;
+}
+
+.verify-info-icon {
+  width: 16px;
+  height: 16px;
+  margin-top: 2px;
+  object-fit: contain;
+}
+
+.verify-info-text {
+  font-size: 0.8rem;
+  color: #374151;
+  line-height: 1.4;
+}
+
+.verify-resend-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 12px 14px;
+  margin-bottom: 20px;
+}
+
+.verify-resend-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-align: left;
+}
+
+.verify-send-icon {
+  width: 18px;
+  height: 18px;
+  object-fit: contain;
+}
+
+.verify-resend-title {
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: #111827;
+  margin: 0;
+}
+
+.verify-resend-timer {
+  font-size: 0.75rem;
+  color: #9ca3af;
+  margin: 2px 0 0;
+}
+
+.verify-resend-btn {
+  background-color: #eff6ff;
+  color: #2563eb;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.auth-back-link {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: #2563eb;
+  font-weight: 600;
+  font-size: 0.85rem;
+  cursor: pointer;
+}
+
+.back-arrow-icon {
+  width: 14px;
+  height: 14px;
+  object-fit: contain;
+}
+
+.auth-brand-side {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+}
+
+.auth-brand-image {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media (max-width: 900px) {
+  .auth-brand-side {
+    display: none;
+  }
+  .auth-form-side {
+    max-width: 100%;
+  }
+}
